@@ -8,8 +8,6 @@ End‑to‑end pipeline for EEG‑based multi‑class dementia classification. I
 
 ```
 .
-├── model-data/
-│   └── labels_epochs.json         # per-epoch labels by subject
 ├── preprocessing.ipynb            # Filtering, ICA, bad-channel interpolation, subject-wise split, 15 s chunk export
 ├── model_eegnet.ipynb             # EEGNet implementation
 ├── model_eegconvnext1d.ipynb      # ConvNeXt-style 1D CNN
@@ -19,7 +17,8 @@ End‑to‑end pipeline for EEG‑based multi‑class dementia classification. I
 
 ```
 
-
+### Data setup
+Please clone the data from this repository: [eeg-alzheimers-detection](https://github.com/Leofierus/eeg-alzheimers-detection)
 ---
 
 ## Data assumptions
