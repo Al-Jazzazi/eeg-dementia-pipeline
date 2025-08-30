@@ -17,6 +17,8 @@ End‑to‑end pipeline for EEG‑based multi‑class dementia classification. I
 
 ```
 
+### Data setup
+Please clone the data from this repository: [eeg-dementia-data](https://github.com/Al-Jazzazi/eeg-dementia-data).
 
 ---
 
